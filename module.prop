@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v1.6
-versionCode=7
-author=Zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/MMT-Extended
+id=gim-tweaks
+name=Gim Tweaks
+version=v1.0
+versionCode=10
+author=kybo15
+description=all-in-one tweak for gaming experience in low end devices.
