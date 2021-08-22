@@ -7,7 +7,7 @@
 # Uncomment DEBUG if you want full debug logs (saved to /sdcard)
 MINAPI=28
 #MAXAPI=25
-DYNLIB=true
+#DYNLIB=true
 #DEBUG=true
 
 ##########################################################################################
