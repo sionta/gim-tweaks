@@ -2,10 +2,15 @@
 <h1 align="center">Gim-Tweaks</h1>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Updated-2021/08/23-blue.svg?longCache=true&style=popout-round"/>
-<img src="https://img.shields.io/badge/Magisk-Module-green.svg?longCache=true&style=flat-round"/>
+    <img src="https://img.shields.io/badge/Updated-2021/08/23-blue.svg?longCache=true&style=popout-round"/>
+    <img src="https://img.shields.io/badge/Magisk-Module-green.svg?longCache=true&style=flat-round"/>
+</div>
 
-This is [Magisk](https://github.com/topjohnwu/Magisk) module all-in-one tweak for gaming experience in low end devices. </div>
+<div align="center">
+    <strong>
+    This is <a href="https://github.com/Zackptg5/MMT-Extended/wiki">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
+    </strong>
+</div>
 
 <!-- Markdown -->
 ### Requirement
