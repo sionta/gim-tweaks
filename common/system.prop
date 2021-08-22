@@ -1,0 +1,117 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+
+# Force Developer Options
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
+# NITRO_LAG_NULLIFIER
+ENFORCE_PROCESS_LIMIT=false
+CONTENT_APP_IDLE_OFFSET=false
+EMPTY_APP_IDLE_OFFSET=false
+ACTIVITY_INACTIVE_RESET_TIME=false
+APP_SWITCH_DELAY_TIME=false
+PROC_START_TIMEOUT=false
+CPU_MIN_CHECK_DURATION=false
+GC_TIMEOUT=false
+SERVICE_TIMEOUT=false
+MIN_HIDDEN_APPS=false
+MAX_HIDDEN_APPS=false
+MIN_RECENT_TASKS=false
+MAX_RECENT_TASKS=false
+MAX_ACTIVITIES=false
+MIN_CRASH_INTERVAL=false
+MAX_SERVICE_INACTIVITY=false
+
+# System Properties
+cpu.fps=auto
+gpu.fps=auto
+
+# Memory Properties
+ro.surface_flinger.use_color_management=true
+ro.vendor.qti.sys.fw.bservice_enable=true
+
+# GPU Tweaks
+rs.gpu.renderscript=0
+debug.composition.type=opengl
+debug.hwui.renderer=opengl
+
+# RAM Tweaks
+persist.sys.purgeable_assets=1
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+
+# Qualcomm Tweaks
+com.qc.hardware=1
+debug.qc.hardware=true
+debug.qctwa.preservebuf=1
+debug.qctwa.statusbar=1
+
+# Touch Improvements
+touch.pressure.scale=0.001 
+persist.sys.ui.hw=1 
+view.scroll_friction=10 
+touch.size.calibration=diameter 
+touch.size.scale=1 
+touch.size.bias=0 
+touch.size.isSummed=0 
+touch.orientation.calibration=none 
+touch.distance.calibration=none 
+touch.distance.scale=0 
+touch.coverage.calibration=box 
+touch.gestureMode=spots 
+MultitouchSettleInterval=0.1ms 
+MultitouchMinDistance=1px 
+TapInterval=0.1ms 
+TapSlop=1px
+
+# Graphic Tweaks
+ro.product.gpu.driver=1
+debug.egl.force_msaa=1
+debug.egl.buffcount=4
+
+# Graphic Optimization
+debug.gr.numframebuffers=3
+ro.min_pointer_dur=1
+
+# FPS Booster
+persist.sys.NV_FPSLIMIT=60
+persist.sys.NV_POWERMODE=1
+persist.sys.NV_PROFVER=15
+persist.sys.NV_STEREOCTRL=0
+persist.sys.NV_STEREOSEPCHG=0
+persist.sys.NV_STEREOSEP=20
+
+# FPS Stabilizer
+debug.sf.showupdates=0
+debug.sf.showcpu=0
+debug.sf.showbackground=0
+debug.sf.showfps=0
+debug.egl.swapinterval=-60
+
+# 2D & 3D Rendering
+hw3d.force=1
+hw2d.force=1
+
+# Rendering Tweaks
+debug.composition.type=c2d
+debug.egl.hw=1
+debug.enabletr=true
+debug.overlayui.enable=1
+debug.qctwa.preservebuf=1
+debug.performance.tuning=1
+debug.sf.hw=1
+dev.pm.dyn_samplingrate=1
+ro.config.disable.hw_accel=false
+ro.fb.mode=1
+ro.sf.compbypass.enable=0
+ro.vold.umsdirtyratio=20
+persist.sys.composition.type=c2d
+persist.sys.ui.hw=1
+video.accelerate.hw=1
+
+# Fake Model
+# ro.product.model=IN2023
+# ro.product.brand=OnePlus
