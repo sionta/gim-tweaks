@@ -1,8 +1,8 @@
 #!/sbin/sh
 
-#################
+##########################################################################################
 # Initialization
-#################
+##########################################################################################
 
 umask 022
 
@@ -16,9 +16,9 @@ require_new_magisk() {
   exit 1
 }
 
-#########################
+##########################################################################################
 # Load util_functions.sh
-#########################
+##########################################################################################
 
 OUTFD=$2
 ZIPFILE=$3
@@ -35,9 +35,9 @@ if [ $MAGISK_VER_CODE -ge 20400 ]; then
   exit 0
 fi
 
-#################
+##########################################################################################
 # Legacy Support
-#################
+##########################################################################################
 
 TMPDIR=/dev/tmp
 PERSISTDIR=/sbin/.magisk/mirror/persist
@@ -58,9 +58,9 @@ print_modname() {
   ui_print " $MODNAME "
   ui_print " by $MODAUTH "
   ui_print "$pounds"
-  ui_print "*******************"
-  ui_print " Powered by Magisk "
-  ui_print "*******************"
+  # ui_print "*******************"
+  # ui_print " Powered by Magisk "
+  # ui_print "*******************"
 }
 
 # Override abort as old scripts have some issues
@@ -87,9 +87,9 @@ api_level_arch_detect
 # Setup busybox and binaries
 $BOOTMODE && boot_actions || recovery_actions
 
-##############
+##########################################################################################
 # Preparation
-##############
+##########################################################################################
 
 # Extract prop file
 unzip -o "$ZIPFILE" module.prop -d $TMPDIR >&2
@@ -106,9 +106,9 @@ MODPATH=$MODULEROOT/$MODID
 rm -rf $MODPATH 2>/dev/null
 mkdir -p $MODPATH
 
-##########
+##########################################################################################
 # Install
-##########
+##########################################################################################
 
 if is_legacy_script; then
   unzip -oj "$ZIPFILE" module.prop install.sh uninstall.sh 'common/*' -d $TMPDIR >&2
@@ -184,9 +184,9 @@ rm -rf \
 $MODPATH/system/placeholder $MODPATH/customize.sh \
 $MODPATH/README.md $MODPATH/.git* 2>/dev/null
 
-#############
+##########################################################################################
 # Finalizing
-#############
+##########################################################################################
 
 cd /
 $BOOTMODE || recovery_cleanup
