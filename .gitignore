@@ -1,2 +1,4 @@
-__MACOSX
-.DS_Store
+*.bat
+.vscode
+.debug
+.editorconfig
