@@ -8,9 +8,10 @@
 
 <div align="center">
     <strong>
-    This is <a href="https://github.com/Zackptg5/MMT-Extended/wiki">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
+        This is <a href="https://github.com/Zackptg5/MMT-Extended/wiki">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
     </strong>
 </div>
+
 
 <!-- Markdown -->
 ### Requirement
@@ -30,7 +31,6 @@
     - Apex Legends Mobile **`BETA`**
 - And others tweaks.
 
-
 ### Disclaimer
 - To fix if graphic unlocker is not active, install [`gim-tweaks-addon.zip`](https://github.com/uyrLab/gim-tweaks/releases/download/v1.0/gim-tweaks-addon.zip)
 - Testing on AOSP [PixelPlusUI](https://ppui.site/device/lavender) ROM.
@@ -38,7 +38,7 @@
 
  ### Links
 - [GitHub](https://github.com/uyrLab/gim-tweaks)
-- [Paypal](https://www.paypal.com/paypalme/kybo15)
+- [PayPal](https://www.paypal.com/paypalme/kybo15)
 
 ### Issues
 If you're reporting an tweaks issue [here](https://github.com/uyrLab/gim-tweaks/issues/1#issue-976498555).
