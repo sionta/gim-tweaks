@@ -4,9 +4,9 @@
 <div align="center">
     <img src="https://img.shields.io/badge/Updated-2021/08/23-blue.svg?longCache=true&style=popout-round"/>
     <img src="https://img.shields.io/badge/Magisk-Module-green.svg?longCache=true&style=flat-round"/>
-    <h2>
+    <h3>
         This is <a href="https://github.com/topjohnwu/Magisk">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
-    </h2>
+    </h3>
 </div>
 
 
