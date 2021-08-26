@@ -38,7 +38,7 @@
 
  ### Links
 - [GitHub](https://github.com/uyrLab/gim-tweaks)
-- [Paypal](paypal.me/kybo15)
+- [Paypal](https://www.paypal.com/paypalme/kybo15)
 
 ### Issues
 If you're reporting an tweaks issue [here](https://github.com/uyrLab/gim-tweaks/issues/1#issue-976498555).
