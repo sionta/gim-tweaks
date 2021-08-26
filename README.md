@@ -8,7 +8,7 @@
 
 <div align="center">
     <strong>
-        This is <a href="https://github.com/Zackptg5/MMT-Extended/wiki">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
+        This is <a href="https://github.com/topjohnwu/Magisk">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
     </strong>
 </div>
 
