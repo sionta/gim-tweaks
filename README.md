@@ -30,7 +30,7 @@
 
 ### Disclaimer
 - To fix if graphic unlocker is not active, install [`gim-tweaks-addon.zip`](https://github.com/uyrLab/gim-tweaks/releases/download/v1.0/gim-tweaks-addon.zip)
-- Testing on AOSP [PixelPlusUI](https://ppui.site/device/lavender) ROM.
+- Testing on AOSP [PixelPlusUI](https://ppui.site/download/lavender) ROM.
 - On other roms I haven't tried testing. because I'm lazy. 🗿
 
  ### Links
