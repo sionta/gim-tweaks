@@ -4,17 +4,14 @@
 <div align="center">
     <img src="https://img.shields.io/badge/Updated-2021/08/23-blue.svg?longCache=true&style=popout-round"/>
     <img src="https://img.shields.io/badge/Magisk-Module-green.svg?longCache=true&style=flat-round"/>
-</div>
-
-<div align="center">
-    <strong>
+    <h2>
         This is <a href="https://github.com/topjohnwu/Magisk">Magisk</a> module all-in-one tweak for gaming experience in low end devices. 
-    </strong>
+    </h2>
 </div>
 
 
 <!-- Markdown -->
-### Requirement
+### Requirements
 - Install latest [Magisk](https://github.com/topjohnwu/Magisk/releases) v20+!
 - Install module [Busybox for NDK](https://github.com/Magisk-Modules-Repo/busybox-ndk) from Magisk Manager Module,
 - or install [Brutal BusyBox](https://t.me/feralab_news_eng/176) mirror module.
