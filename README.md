@@ -12,6 +12,7 @@
 
 <!-- Markdown -->
 ### Requirements
+- Android 10-11
 - Install latest [Magisk](https://github.com/topjohnwu/Magisk/releases) v20+!
 - Install module [Busybox for NDK](https://github.com/Magisk-Modules-Repo/busybox-ndk) from Magisk Manager Module,
 - or install [Brutal BusyBox](https://t.me/feralab_news_eng/176) mirror module.
@@ -30,11 +31,11 @@
 
 ### Disclaimer
 - To fix if graphic unlocker is not active, install [`gim-tweaks-addon.zip`](https://github.com/uyrLab/gim-tweaks/releases/download/v1.0/gim-tweaks-addon.zip)
-- Testing on AOSP [PixelPlusUI](https://ppui.site/download/lavender) ROM.
-- On other roms I haven't tried testing. because I'm lazy. 🗿
+- Testing on AOSP [PixelPlusUI](https://ppui.site/download/lavender) ROM and Device lavender.
+- On other roms i haven't tried testing, because i'm lazy. 🗿
 
  ### Links
-- [GitHub](https://github.com/uyrLab/gim-tweaks)
+- [GitHub](https://github.com/kybo15/gim-tweaks)
 - [PayPal](https://www.paypal.com/paypalme/kybo15)
 
 ### Issues
